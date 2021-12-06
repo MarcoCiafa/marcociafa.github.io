@@ -1,0 +1,134 @@
+body {
+  /* font-size: 150%; */
+  font-size: 100%;
+  /* font-size: 12pt; */        /* brave */
+  background-color: Azure	;
+}
+
+/* div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+} */
+
+
+
+/* -------- header menu styles -------- */
+
+header {
+  background-color: LavenderBlush	;
+
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  border-color: DarkSlateBlue;
+
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header h1 {
+  background-color: white;
+  color: DarkSlateBlue	;
+
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  border-color: DarkSlateBlue;
+
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+header img{
+    width: 100%;
+    height: 200px;
+
+    border-style: solid;
+    border-width: thick;
+    border-radius: 1em;
+    border-color: DarkSlateBlue;
+}
+
+
+
+
+
+
+/* -------- navigation menu styles -------- */
+
+nav {
+  background-color: green;
+
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  border-color: DarkSlateBlue;
+
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  /* margin: 0 auto; */
+
+  overflow: hidden;
+  text-align: center;
+
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* align-items: space-between;
+  align-content: space-between;
+  justify-content: space-between; */
+}
+nav ul {
+  list-style-type: none;                      /* remove bullets */
+  /* display: inline; */
+
+
+  background-color: red;
+
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  border-color: DarkSlateBlue;
+
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  display: flex;                    /* los hijos heredan automáticamente flex */
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  /* align-items: stretch; */
+  justify-content: space-around;
+
+}
+
+nav li{
+  background-color: Plum;
+
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  border-color: DarkSlateBlue;
+
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  /* display: inline; */
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-around; */
+
+  color: white;
+}
