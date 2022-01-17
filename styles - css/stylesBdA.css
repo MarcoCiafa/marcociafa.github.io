@@ -1,0 +1,91 @@
+/* BANCO DE APUNTES*/
+
+
+/* Articles */
+
+article p{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+/* Tables */
+
+table {
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+    margin-right:10%;
+    
+    background-color: beige;
+
+}
+
+
+table caption {
+    text-decoration: underline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+/*    background-color: inherit;*/
+}
+
+
+
+
+
+/* ClassNotesTable */
+
+#ClassNotesTable {
+    border-width: thin;
+    border-style: solid;
+    border-color: dimgray;
+    border-collapse: collapse;
+}
+
+#ClassNotesTable th {
+    border-bottom: thin solid gray;
+}
+
+#ClassNotesTable th, #ClassNotesTable td{
+    padding: 0.5em;
+}
+
+#ColCourses {
+    width: 40%;
+}
+
+#ColDescription {
+    width= 40;
+}
+
+
+
+
+
+
+
+
+
+/* TODO: hyphens do not work correctly */
+.text-wrap {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+
+
+
+
+
