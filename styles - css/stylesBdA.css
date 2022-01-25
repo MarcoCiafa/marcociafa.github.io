@@ -23,7 +23,6 @@ table {
     margin-right:10%;
     
     background-color: beige;
-
 }
 
 
@@ -31,8 +30,6 @@ table caption {
     text-decoration: underline;
     padding-top: 1rem;
     padding-bottom: 1rem;
-
-/*    background-color: inherit;*/
 }
 
 
@@ -57,18 +54,36 @@ table caption {
 }
 
 #ColCourses {
-    width: 40%;
+    width: 30%;
 }
 
 #ColDescription {
-    width= 40;
+    width= 40%;
 }
 
+#ColStatus {
+    width= 10%;
+}
 
+td.Unavailable {
+    background-color: lightgray;
+}
 
+td.VeryIncomplete {
+    background-color: indianred;
+}
 
+td.Incomplete {
+    background-color: orange;
+}
 
+td.Complete {
+    background-color: forestgreen;
+}
 
+#ClassNotesTable td:nth-child(3) {
+    text-align: center;
+}
 
 
 

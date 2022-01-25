@@ -1,22 +1,45 @@
-/* Basic CSS */
+
+
+
+
+
 
 html {  /* parent= viewport */
-    height: 100%;
-    min-width: 500px;
-
+    min-width: 652px;
+    
+    margin: 0;
+    padding: 0;
 }
 
 body {  /* parent= html */
-    min-height: 100%;
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
     
     background-color: azure;
     
     font-size: 16px;
 /*    font-family: "Source Code Pro", monospace;*/
     font-family: "Palatino Linotype"; 
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1, h2, h3, h4, h5, h6 ,
 nav {
@@ -48,7 +71,44 @@ li {
 /* Header */
 
 header {
+    width: 100%;
+    
+    margin: 0rem;
+    padding-top: 1rem;
+        
+    background-color: skyblue;
+    
     text-align: center;
+}
+
+#WebSiteTitle {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    margin: 0rem;
+}
+
+
+
+
+/* Header Navigation*/
+
+header nav {
+    width: 100%;
+    margin: 0;
+    
+    border-style: solid;
+    border-color: black;
+    border-top-width: .1rem;
+    border-bottom-width: .1rem;
+    border-left-width: 0;
+    border-right-width: 0;
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    background-color: antiquewhite;
+    background-clip: padding-box;
 }
 
 /*
@@ -72,17 +132,163 @@ header nav div.container  {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BodyBody */
+
+#BodyBodyContent {    
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 footer {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    width: 100%;
+    
+    margin: 0rem;
+    
+    border-top: .1rem black solid;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    background-color: skyblue;
+    background-clip: padding-box;
+    
+}
+
+footer div.FooterContent {
+    height: 10rem;
+
+    margin: 1rem;
+    padding: 2rem;
+}
+
+footer div.FooterElement {  
+    height: 5rem;
+
+    margin: 2%;
+    border: solid;
+    padding: 1rem;
+    width: 100%;
+    
+    display: inline;
 }
 
 
+/*
+footer ul {
+    width: 100%;
+
+    margin: 0rem;
+    border: 0rem;
+    padding: 0rem;
+}
+
+footer ul li {
+    display: inline;
+    
+    width: 20%;
+    
+    margin: 0rem;
+    border: 0rem;
+    padding: 0rem;
+    
+    
+}
+*/
+
+/*
 footer li {
     list-style-type: none;
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -41,11 +41,9 @@
         
         <header>
             
-            <h1><i lang="en-US">Vandelay Industries</i></h1>
-            <p>¿Qué tal, internauta? Mi nombre es Art Vandelay; soy miembro fundador de Industrias Vandelay.</p>
+            <h1 id="WebSiteTitle"><i lang="en-US">Vandelay Industries</i></h1>
+            <p id="WebSiteDescription">¿Qué tal, internauta? Mi nombre es Art Vandelay; soy miembro fundador de Industrias Vandelay.</p>
             
-            <hr>
-
             <nav id="HeaderNavigation">   <!-- Header Navigation-->
 
                 <div class="container">
@@ -61,17 +59,15 @@
                 </div>
 
                 <div class="container">
-                    Item
+                    Software útil
                 </div>
 
             </nav>
             
-            <hr>
-
         </header>
         
-        <hr>
-        
+        <div id="BodyBodyContent">
+                
         <article id="ClassNotes">
             
             <h1>Apuntes de mis cursadas</h1>
@@ -94,6 +90,7 @@
                     <tr>
                         <th id="ColCourses"     scope="col">Materia</th>
                         <th id="ColDescription" scope="col">Descripción</th>
+                        <th id="ColStatus"      scope="col">Estado</th>
                     </tr>
                 </thead>
 
@@ -105,6 +102,7 @@
                             </a>
                         </td>
                         <td>Mecánica Newtoniana</td>
+                        <td class="Unavailable">No disponible</td>
                     </tr>
                     <tr>
                         <td>
@@ -113,6 +111,7 @@
                             </a>
                         </td>
                         <td>Ondas &amp; Óptica</td>
+                        <td class="VeryIncomplete">Muy incompleto</td>
                     </tr>
                     <tr>
                         <td>
@@ -121,6 +120,7 @@
                             </a>
                         </td>
                         <td>Electromagnetismo</td>
+                        <td class="Incomplete">Incompleto</td>
                     </tr>
                     <tr>
                         <td>
@@ -129,6 +129,7 @@
                             </a>
                         </td>
                         <td>Termodinámica &amp; Introducción a la Mecánica Cuántica</td>
+                        <td class="VeryIncomplete">Muy incompleto</td>
                     </tr>
                     <tr>
                         <td>
@@ -137,6 +138,7 @@
                             </a>
                         </td>
                         <td>Mecánica Analítica</td>
+                        <td class="Complete">Relativamente Completo</td>
                     </tr>
                     <tr>
                         <td>
@@ -145,6 +147,7 @@
                             </a>
                         </td>
                         <td>Electromagnetismo</td>
+                        <td class="Incomplete">Incompleto</td>
                     </tr>
                     <tr>
                         <td>
@@ -153,6 +156,7 @@
                             </a>
                         </td>
                         <td>Mecánica Cuántica</td>
+                        <td class="Complete">Relativamente Completo</td>
                     </tr>
                     <tr>
                         <td>
@@ -161,6 +165,7 @@
                             </a>
                         </td>
                         <td>Análisis Multivariable</td>
+                        <td class="Unavailable">No disponible</td>
                     </tr>
                     <tr>
                         <td>
@@ -169,6 +174,7 @@
                             </a>
                         </td>
                         <td>Álgebra Lineal</td>
+                        <td class="Unavailable">No disponible</td>
                     </tr>
                     <tr>
                         <td>
@@ -177,6 +183,7 @@
                             </a>
                         </td>
                         <td>Análisis Vectorial</td>
+                        <td class="Unavailable">No disponible</td>
                     </tr>
                     <tr>
                         <td>
@@ -185,6 +192,7 @@
                             </a>
                         </td>
                         <td>Análisis Complejo &amp; Transformadas Integrales</td>
+                        <td class="VeryIncomplete">Muy incompleto</td>
                     </tr>
                     <tr>
                         <td>
@@ -193,6 +201,7 @@
                             </a>
                         </td>
                         <td>Análisis Numérico</td>
+                        <td class="VeryIncomplete">Muy incompleto</td>
                     </tr>
                     <tr>
                         <td>
@@ -201,6 +210,7 @@
                             </a>
                         </td>
                         <td>Probabilidad y Estadística</td>
+                        <td class="Incomplete">Incompleto</td>
                     </tr>    
                 </tbody>
 
@@ -224,43 +234,47 @@
 
         </article>
 
-
+        </div>
         
         
         
         
    
         <footer>
-            
-            Este es el <i lang="en">footer</i>.
-            
-            <ul>
-                <li>
+                    
+            <div class="FooterContent">
+
+                <div class="FooterElement">
                     <a>
                         Facebook
                     </a>
-                </li>
-                <li>
+                </div>
+
+                <div class="FooterElement">
                     <a>
                         Twitter
                     </a>
-                </li>
-                <li>
+                </div>
+
+                <div class="FooterElement">
                     <a>
                         Instagram
                     </a>
-                </li>
-                <li>
+                </div>
+
+                <div class="FooterElement">
                     <a>
                         LinkedIn
                     </a>
-                </li>
-                <li>
+                </div>
+
+                <div class="FooterElement">
                     <a>
                         <i lang="en"> e-mail </i>
                     </a>
-                </li>
-            </ul>
+                </div>
+
+            </div>
         
         </footer>
         
