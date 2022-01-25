@@ -6,8 +6,21 @@
     margin-right: 10%;
 }
 
+section {
+    display: block;
+}
+
+
+
+#ContactInformation {
+    min-height: 15em;
+}
 
 #ProfilePicture {
+    width: 20%;
+    
+    margin-right: 2%;
+    
     border-style: solid;
     border-color: gray;
     border-width: thin;
@@ -20,10 +33,16 @@
 
 
 
+section p {
+    display: inline
+}
+
+/*
 #AcademicTraining {
     float: none;
 }
 
+*/
 
 
 
