@@ -1,0 +1,37 @@
+
+/* ABOUT ME */
+
+#AboutMe { /* parent: body */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#ProfilePicture {
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+    border-radius: 50%;
+    
+    background-color: white;
+    
+    float: left;
+}
+
+
+
+#AcademicTraining {
+    float: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
