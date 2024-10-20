@@ -1,8 +1,4 @@
-
-
-
-
-
+* { outline: 1px solid red; }
 
 html {  /* parent= viewport */
     min-width: 652px;
@@ -20,8 +16,8 @@ body {  /* parent= html */
     background-color: azure;
     
     font-size: 16px;
-/*    font-family: "Source Code Pro", monospace;*/
-    font-family: "Palatino Linotype"; 
+	/*font-family: "Palatino Linotype";*/
+	/*font-family: "Source Code Pro", monospace;*/
 }
 
 
@@ -44,7 +40,7 @@ body {  /* parent= html */
 h1, h2, h3, h4, h5, h6 ,
 nav {
 /*    font-family: "Source Sans Pro", sans-serif;*/
-    font-family: "Helvetica", "Verdana", "Arial", sans-serif; 
+/*    font-family: "Helvetica", "Verdana", "Arial", sans-serif; */
 
 }
 
