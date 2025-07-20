@@ -1,0 +1,31 @@
+#ProfilePicture {
+  max-width: 163px;
+  width:100%;
+}
+
+#ShortPersonalDescription {
+	color: gray;
+}
+
+.SocialNetworkIcon {
+  max-width: 40px;
+/*  width:100%;*/
+}
+
+.Experience {
+	margin-bottom: 0px;
+}
+.ExperienceDescription {
+	font-size: .8rem;
+	color: gray;
+	font-style: italic;
+}
+
+.SkillDescription {
+	font-size: .8rem;
+	color: gray;
+}
+
+dd i {
+	margin-right: 10px;
+}

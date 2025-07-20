@@ -1,0 +1,16 @@
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+body {
+	font-family: "Noto Sans";
+	background-color: #F1F0E8;
+}
+
+h1 {
+	font-size: 2em
+}
+
+.text-justify {
+	text-align: justify
+}

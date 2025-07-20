@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="50"
+   viewBox="0 0 26.458333 13.229167"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:lockguides="true"
+     inkscape:zoom="8.2041844"
+     inkscape:cx="51.498111"
+     inkscape:cy="18.709965"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="440"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid694"
+       originx="0"
+       originy="0" />
+    <sodipodi:guide
+       position="0,13.229167"
+       orientation="0,100"
+       inkscape:locked="true"
+       id="guide510" />
+    <sodipodi:guide
+       position="26.458333,13.229167"
+       orientation="50,0"
+       inkscape:locked="true"
+       id="guide512" />
+    <sodipodi:guide
+       position="26.458333,0"
+       orientation="0,-100"
+       inkscape:locked="true"
+       id="guide514" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-50,0"
+       inkscape:locked="true"
+       id="guide516" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="23.402691"
+       y="84.347198"
+       width="249.62871"
+       height="133.10281"
+       id="rect800" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,7.2066293,-1.1632521)"
+       id="text798"
+       style="white-space:pre;shape-inside:url(#rect800);fill:#000000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:'Ink Free';-inkscape-font-specification:'Ink Free, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.264583"
+       x="1.103845"
+       y="8.4656086"
+       id="text520"><tspan
+         sodipodi:role="line"
+         id="tspan518"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'Ink Free';-inkscape-font-specification:'Ink Free, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="1.103845"
+         y="8.4656086">Ink Free</tspan></text>
+  </g>
+</svg>
